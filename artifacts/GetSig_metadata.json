@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSig",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practise/fallbackReceive/code.sol": "GetSig"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practise/fallbackReceive/code.sol": {
+			"keccak256": "0x956a900ed83ec158c66ecbd275485d7787e3b2ab969ba69d049ade263bca68d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40797e647b8adb519c463b4478384f76e6df9465e81e84db1b7db7b13f92115b",
+				"dweb:/ipfs/Qmbd5bvt4dqR3cF9oWZNNPYwkiv3Zc7FS1FeyAPZXmSTrX"
+			]
+		}
+	},
+	"version": 1
+}
