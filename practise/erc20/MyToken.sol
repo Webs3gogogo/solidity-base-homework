@@ -8,4 +8,6 @@ contract MyToken is ERC20 {
     constructor (uint256 initialSupply) ERC20("MyToken","MTK") ERC20Permit{
         _mint(msg.sender, initialSupply);
     }
+
+
 }

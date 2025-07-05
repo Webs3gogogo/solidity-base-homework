@@ -6,42 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": true,
 						"internalType": "address",
-						"name": "sender",
+						"name": "",
 						"type": "address"
-					},
+					}
+				],
+				"name": "balances",
+				"outputs": [
 					{
-						"indexed": false,
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "Deposit",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "receiver",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "Withdraw",
-				"type": "event"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -51,13 +32,7 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -77,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"practise/eventTest/Bank.sol": "Bank"
+			"practise/ReentrancyAttack/VulnerableVault.sol": "VulnerableVault"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -91,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"practise/eventTest/Bank.sol": {
-			"keccak256": "0x1c912b4848ad3a41f282837146d20b39d14cf8df77e8f1f718a82bf0b8a40c42",
+		"practise/ReentrancyAttack/VulnerableVault.sol": {
+			"keccak256": "0x799eda176bbea738598f981d89d59828630fb331a32e7e55c67ccf7e84fba9c0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f39304e4fdf846ac4974f7e6687244f5746efcf3fa15baf044bca27621f6b3cf",
-				"dweb:/ipfs/QmexAHstqMrDQWu2ovn8zBJimGKxaLqGtw9Xh2BgFB32CK"
+				"bzz-raw://0eb03f14f2f7256116edb954f31f915625eacc54d823b219ab0e28847e154f1c",
+				"dweb:/ipfs/QmdiJmePfq4H7dibSXqdT8k1zYirhaQf71ovwxLjHnqe4f"
 			]
 		}
 	},
